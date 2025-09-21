@@ -40,4 +40,9 @@ The WEBENCH report (see PDF) included a BOM. Equivalent components available fro
 | U1    | Texas Instruments| TPS62932DRLR             | Switcher IC                                                                | 1   | DRL0008A-MFG 9 mm² | C3032935 |  STEP@ https://www.snapeda.com/   |
 | SW1   | C&K              | SS-12F49-G050            | Switch, SPDT                             | 1   | KSC201  | C2876010 |  Added     |
 | D1    | BrtLed(Bright LED Elec)       | BL-HZD33-L21-TRB                | White 3.3V LED                                                 | 1   | 1206     | C5264252  |   Added , no CAD, use Generic LED1206   |
-| R1    | VO            | SCR0805J560R             | Res=560Ω;                                     | 1   | 0805    | C5264252  |   Added, Generic 0805 resistor    |
+| R1    | VO            | SCR0805J560R             | Res=560Ω;                                     | 1   | 0805    | C3017839  |   Added, Generic 0805 resistor    |
+
+
+The script **parts.bat** will create a library of the parts named **power_parts**.
+
+Note that L1, D1 and R1 do not have symbol anf footprint files in the JLCPCB database. See the Notes column in the BOM table above for instructions on how to create these parts. All them to the power_parts library.
