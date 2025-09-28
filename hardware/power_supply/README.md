@@ -28,10 +28,10 @@ The WEBENCH report (see PDF) included a BOM. Equivalent components available fro
 
 | Name  | Manufacturer     | Part Number              | Properties                                                                 | Qty | Footprint      | LCSC | Notes |
 |-------|------------------|--------------------------|----------------------------------------------------------------------------|-----|----------------|------|-------|
-| Cboot | MuRata           | GRM155R71A104KA01D       | Series=X7R;<br>Cap=100.0 nF<br>ESR=1.0 mΩ;<br>VDC=10.0 V;<br>IRMS=0.0 A   | 1   | 0402 3 mm²     |  C71687    |       |
-| Cff   | TDK              | CGA1A2C0G1E180J030BA     | Series=C0G/NP0;<br>Cap=18.0 pF;<br>VDC=25.0 V;<br>IRMS=0.0 A              | 1   | 0201 2 mm²     | C599585    |   C0402C180J5GAC7867, 0402    |
-| Cin   | Taiyo Yuden      | MSASU32MSB5106KPNA01     | Series=X5R;<br>Cap=10.0 µF;<br>ESR=3.979 mΩ;<br>VDC=50.0 V;<br>IRMS=3.4821 A | 1   | 1210 15 mm²    |  C5677734    |       |
-| Cinx  | TDK              | CGA3E2X7R1H104K080AA     | Series=X7R;<br>Cap=100.0 nF;<br>ESR=29.6 mΩ;<br>VDC=50.0 V;<br>IRMS=971.99 mA | 1   | 0603 5 mm²     |  C14663  |  CC0603KRX7R9BB104     |
+| Cboot(C1) | MuRata           | GRM155R71A104KA01D       | Series=X7R;<br>Cap=100.0 nF<br>ESR=1.0 mΩ;<br>VDC=10.0 V;<br>IRMS=0.0 A   | 1   | 0402 3 mm²     |  C71687    |       |
+| Cff(C2)   | TDK              | CGA1A2C0G1E180J030BA     | Series=C0G/NP0;<br>Cap=18.0 pF;<br>VDC=25.0 V;<br>IRMS=0.0 A              | 1   | 0201 2 mm²     | C599585    |   C0402C180J5GAC7867, 0402    |
+| Cin(C3)   | Taiyo Yuden      | MSASU32MSB5106KPNA01     | Series=X5R;<br>Cap=10.0 µF;<br>ESR=3.979 mΩ;<br>VDC=50.0 V;<br>IRMS=3.4821 A | 1   | 1210 15 mm²    |  C5677734    |       |
+| Cinx(C4)  | TDK              | CGA3E2X7R1H104K080AA     | Series=X7R;<br>Cap=100.0 nF;<br>ESR=29.6 mΩ;<br>VDC=50.0 V;<br>IRMS=971.99 mA | 1   | 0603 5 mm²     |  C14663  |  CC0603KRX7R9BB104     |
 | Cout  | MuRata           | GRM32ER61C476KE15L       | Series=X5R;<br>Cap=47.0 µF;<br>ESR=3.037 mΩ;<br>VDC=16.0 V;<br>IRMS=4.59346 A | 1   | 1210_280 15 mm²| C5440143   |   CS3225X7R476K160NRL    |
 | Css   | MuRata           | GRM155R71A333KA01D       | Series=X7R;<br>Cap=33.0 nF;<br>ESR=1.0 mΩ;<br>VDC=10.0 V;<br>IRMS=0.0 A   | 1   | 0402 3 mm²     |     C307488  |  CL10B333KB8NFNC, 0603     |
 | L1    | Bourns           | SRR1208-100ML            | L=10.0 µH; DCR=21.0 mΩ                                                     | 1   | SRR1208 216 mm²|   C2041331  |    STEP@SnapMagic   |
@@ -46,3 +46,6 @@ The WEBENCH report (see PDF) included a BOM. Equivalent components available fro
 The script **parts.bat** will create a library of the parts named **power_parts**.
 
 Note that L1, D1 and R1 do not have symbol anf footprint files in the JLCPCB database. See the Notes column in the BOM table above for instructions on how to create these parts. All them to the power_parts library.
+
+C5290394 (Male)
+C5290400 (Female)

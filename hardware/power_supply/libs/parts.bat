@@ -2,7 +2,7 @@
 :: Usage: build_lib.bat <lib_name> <parts_list>
 :: Example: build_lib.bat mylib "C12345 C67890 C24680"
 
-set lib_name="power_parts"
+set lib_name="PowerSupply"
 set parts_list=C71687 C599585 C5677734 C14663 C5440143 C307488 C2041331 C71617 C23198 C3032935 C2876010 
 
 :: Loop through each part number
