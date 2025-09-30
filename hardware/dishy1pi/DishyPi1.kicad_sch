@@ -6189,7 +6189,7 @@
 			)
 		)
 		(property "Value" "GNDPI"
-			(at 76.3143 84.3344 0)
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,6 +6202,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6210,6 +6211,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
@@ -6252,7 +6254,7 @@
 			)
 		)
 		(property "Value" "GNDPI"
-			(at 58.5343 84.3344 0)
+			(at 58.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,6 +6267,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6273,6 +6276,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
@@ -6306,15 +6310,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ad464a")
 		(property "Reference" "J1"
-			(at 67.31 22.4598 0)
+			(at 67.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GPIO"
-			(at 67.31 24.765 0)
+		(property "Value" "Conn_02x20_Odd_Even"
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6326,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
-			(at -57.15 74.93 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -57.15 74.93 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +6696,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 66.04 108.458 0)
+			(at 66.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6752,7 @@
 		(dnp no)
 		(uuid "3b1f3d52-cdde-499e-98e7-02cd4bf8c294")
 		(property "Reference" "R2"
-			(at 109.22 154.94 0)
+			(at 113.538 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,22 +7060,19 @@
 		(dnp no)
 		(uuid "7748c4f1-26e2-42ae-8a6d-cbe5cd209ff0")
 		(property "Reference" "H1"
-			(at 105.41 176.53 90)
+			(at 113.03 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1.27MM/1*2P"
-			(at 104.14 176.53 90)
+			(at 100.33 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "MyParts:HDR-TH_2P-P1.27-V-M"
@@ -7340,7 +7341,7 @@
 			)
 		)
 		(property "Value" "GNDPI"
-			(at 76.3143 183.3944 0)
+			(at 76.2 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,6 +7354,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7361,6 +7363,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
@@ -7564,7 +7567,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 76.2 92.202 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7690,7 @@
 		(dnp no)
 		(uuid "a59a11e7-9b38-40b8-b3ba-43bedd220c1d")
 		(property "Reference" "CN1"
-			(at 137.16 47.244 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,12 +7698,11 @@
 			)
 		)
 		(property "Value" "KF2EDGR-2.54-2P"
-			(at 141.224 58.42 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "MyParts:CONN-TH_P2.54_KF2EDGR-2.54-2P"
@@ -7764,7 +7766,7 @@
 		(dnp no)
 		(uuid "b000c025-e1d4-46dc-a84b-f6a807dd7fdf")
 		(property "Reference" "R3"
-			(at 113.03 154.94 0)
+			(at 117.348 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +7997,7 @@
 			)
 		)
 		(property "Value" "GNDPI"
-			(at 63.6143 164.3444 0)
+			(at 63.5 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,6 +8010,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8016,6 +8019,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
@@ -8049,20 +8053,19 @@
 		(dnp no)
 		(uuid "b84c9417-eff6-4619-9b88-81ac84d513ce")
 		(property "Reference" "D2"
-			(at 147.32 54.61 0)
+			(at 148.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPESD0402G05V"
-			(at 146.05 73.66 0)
+		(property "Value" "PESD5V0L1UL"
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
@@ -8126,21 +8129,19 @@
 		(dnp no)
 		(uuid "c7527717-21d4-4264-93b6-9b55a3b65266")
 		(property "Reference" "D1"
-			(at 200.66 52.07 90)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 200.66 54.61 90)
+			(at 200.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
@@ -8625,7 +8626,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 36.83 108.204 0)
+			(at 36.83 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +8896,7 @@
 			)
 		)
 		(property "Value" "GNDPI"
-			(at 48.26 108.204 0)
+			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +8961,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 92.202 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

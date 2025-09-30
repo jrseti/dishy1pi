@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.65,
-          "width": 1.65
+          "drill": 0.599999,
+          "height": 2.5,
+          "width": 1.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -502,6 +502,20 @@
         "microvia_drill": 0.1,
         "name": "+3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.7
+      },
+      {
+        "clearance": 0.16,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.1,
+        "name": "+5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
@@ -515,6 +529,20 @@
         "microvia_diameter": 0.5,
         "microvia_drill": 0.1,
         "name": "+5VIN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.7
+      },
+      {
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.1,
+        "name": "GNDIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -530,7 +558,7 @@
         "microvia_drill": 0.1,
         "name": "GNDPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 1.0,
@@ -546,7 +574,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 1.0,
@@ -569,8 +597,16 @@
         "pattern": "+3.3V"
       },
       {
+        "netclass": "+5V",
+        "pattern": "+5V"
+      },
+      {
         "netclass": "+5VIN",
-        "pattern": "Net-(D2-K)"
+        "pattern": "+5VIN"
+      },
+      {
+        "netclass": "GNDIO",
+        "pattern": "GNDIO"
       }
     ]
   },

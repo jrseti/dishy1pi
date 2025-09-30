@@ -1220,7 +1220,7 @@
 					)
 				)
 			)
-			(property "Footprint" "myparts:SMD-16_L20.0-W6.5-P2.54-LS10.2-BL"
+			(property "Footprint" "MyParts:SMD-16_L20.0-W6.5-P2.54-LS10.2-BL"
 				(at 0 -21.59 0)
 				(effects
 					(font
@@ -1896,12 +1896,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "MyParts:TPESD0402G05V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1922,7 +1916,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "myparts:D0402-BI"
+			(property "Footprint" "MyParts:D0402-BI"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1995,7 +1989,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
@@ -2015,7 +2009,7 @@
 				)
 			)
 			(symbol "TPESD0402G05V_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
@@ -3372,6 +3366,288 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPESD0402G05V_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPESD0402G05V"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "MyParts:D0402-BI"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C558615"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPESD0402G05V_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPESD0402G05V_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPESD0402G05V_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPESD0402G05V"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "MyParts:D0402-BI"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C558615"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPESD0402G05V_2_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPESD0402G05V_2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3661,9 +3937,9 @@
 		)
 		(uuid "c8e75d4b-87a0-4d95-9e09-9f04c544fa8f")
 	)
-	(text "With 1k resistor each \ninput is ~8mA"
+	(text "With 1k resistor each \ninput is ~3.8mA"
 		(exclude_from_sim no)
-		(at 68.58 44.196 0)
+		(at 64.77 42.672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8183,7 +8459,7 @@
 		(dnp no)
 		(uuid "0404c57b-ad70-4166-9bda-9fcf55822276")
 		(property "Reference" "D21"
-			(at 196.342 86.106 90)
+			(at 204.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8602,7 @@
 		(dnp no)
 		(uuid "0754473a-bccc-4446-88b9-d94b2d4d4af4")
 		(property "Reference" "D27"
-			(at 202.692 141.986 90)
+			(at 210.82 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,11 +8679,12 @@
 		(dnp no)
 		(uuid "0ffcaadd-f96d-497e-8161-47c8854dbd0f")
 		(property "Reference" "R26"
-			(at 76.454 167.894 90)
+			(at 76.2 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470Ω"
@@ -8624,7 +8901,7 @@
 		(dnp no)
 		(uuid "2495816d-9b46-476e-9dd9-fbacc2540963")
 		(property "Reference" "D25"
-			(at 188.722 134.366 90)
+			(at 196.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,6 +8969,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TPESD0402G05V_2")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 186.69 76.2 270)
 		(unit 1)
@@ -8701,7 +8979,7 @@
 		(dnp no)
 		(uuid "2ffaff3c-9a32-43e2-af51-8c9cbdccf69e")
 		(property "Reference" "D19"
-			(at 183.642 77.216 90)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +9056,7 @@
 		(dnp no)
 		(uuid "302ef067-7cd2-47b9-aacc-78a0f36fe6e9")
 		(property "Reference" "D22"
-			(at 202.692 88.646 90)
+			(at 210.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +9147,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8921,7 +9198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d26f58-8ea5-44c7-b3a9-2f82060ab85b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 212.09 160.02 0)
 			(effects
 				(font
@@ -8931,13 +9208,11 @@
 			)
 		)
 		(property "Value" "GNDIO"
-			(at 212.0899 157.48 90)
+			(at 212.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8973,7 +9248,7 @@
 		(instances
 			(project "DishyPi1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -8989,7 +9264,7 @@
 		(dnp no)
 		(uuid "35fce147-9404-45b8-842b-14fdffd849be")
 		(property "Reference" "R20"
-			(at 95.25 44.45 0)
+			(at 95.758 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +9500,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9277,7 +9551,7 @@
 		(dnp no)
 		(uuid "3cd490d2-f6fe-402f-9254-fd3127b9e8f3")
 		(property "Reference" "R22"
-			(at 99.314 83.82 0)
+			(at 99.568 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,6 +9859,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TPESD0402G05V_1")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 193.04 82.55 270)
 		(unit 1)
@@ -9594,7 +9869,7 @@
 		(dnp no)
 		(uuid "5406468f-08e8-4d32-8e7b-857e24b0c3c0")
 		(property "Reference" "D20"
-			(at 189.992 83.566 90)
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +9946,7 @@
 		(dnp no)
 		(uuid "559ca21e-88f8-4573-8a6f-6a5ee1868aed")
 		(property "Reference" "CN7"
-			(at 231.14 124.206 0)
+			(at 231.14 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9954,7 @@
 			)
 		)
 		(property "Value" "KF2EDGR-2.54-6P"
-			(at 231.14 145.542 0)
+			(at 231.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +10034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59088c11-c87c-4d52-bd52-3d85dc23eb28")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 223.52 107.95 0)
 			(effects
 				(font
@@ -9769,13 +10044,11 @@
 			)
 		)
 		(property "Value" "GNDIO"
-			(at 223.5199 105.41 90)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9811,7 +10084,7 @@
 		(instances
 			(project "DishyPi1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -9892,11 +10165,12 @@
 		(dnp no)
 		(uuid "5b288394-a8a0-4e45-a989-6cf0d27e049d")
 		(property "Reference" "R21"
-			(at 71.12 76.2 90)
+			(at 71.12 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220Ω"
@@ -10113,11 +10387,12 @@
 		(dnp no)
 		(uuid "67308be6-f5c4-47d4-b22a-2276e7510b70")
 		(property "Reference" "R24"
-			(at 78.74 130.048 90)
+			(at 78.74 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1kΩ"
@@ -10334,11 +10609,12 @@
 		(dnp no)
 		(uuid "7671dc8b-2ddb-4bf0-b427-94269b5f4fbb")
 		(property "Reference" "R23"
-			(at 78.74 122.428 90)
+			(at 78.74 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1kΩ"
@@ -10703,7 +10979,7 @@
 		(dnp no)
 		(uuid "860c43f4-945a-4822-8682-26bdf4bb5f38")
 		(property "Reference" "R27"
-			(at 94.234 180.34 0)
+			(at 94.488 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +11284,7 @@
 		(dnp no)
 		(uuid "8a9e8503-ec81-45ff-b88d-ce6c470a5f7c")
 		(property "Reference" "D24"
-			(at 214.122 96.266 90)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11085,19 +11361,21 @@
 		(dnp no)
 		(uuid "9476f4d4-7216-4109-a8fa-9d486c022a2c")
 		(property "Reference" "C14"
-			(at 75.184 57.15 90)
+			(at 70.722 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 75.184 59.69 90)
+			(at 72.7682 56.388 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
@@ -11218,13 +11496,12 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 74.93 55.88 0)
+			(at 74.4362 56.388 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -11344,19 +11621,21 @@
 		(dnp no)
 		(uuid "a07d4df4-d348-42d3-aebd-6c90ee566695")
 		(property "Reference" "C15"
-			(at 75.184 64.77 90)
+			(at 70.722 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 75.184 67.31 90)
+			(at 72.7682 64.008 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
@@ -11477,13 +11756,12 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 74.93 63.5 0)
+			(at 74.4362 64.008 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -11538,19 +11816,21 @@
 		(dnp no)
 		(uuid "a71ce10f-ff42-4448-9455-112c29c34346")
 		(property "Reference" "C13"
-			(at 75.184 49.53 90)
+			(at 70.722 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 75.184 52.07 90)
+			(at 72.7682 48.768 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
@@ -11671,13 +11951,12 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 74.93 48.26 0)
+			(at 74.4362 48.768 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -11732,21 +12011,19 @@
 		(dnp no)
 		(uuid "a87ae55c-3b0f-46aa-b1fa-051d0d33aae4")
 		(property "Reference" "CN6"
-			(at 239.522 67.056 0)
+			(at 241.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "KF2EDGR-2.54-9P"
-			(at 232.918 96.266 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "MyParts:CONN-TH_9P-P2.54_KF2EDGR-2.54-9P"
@@ -11831,7 +12108,7 @@
 		(dnp no)
 		(uuid "abc212d5-452d-402b-8ee8-5ba9e9cac99f")
 		(property "Reference" "C16"
-			(at 76.454 79.502 0)
+			(at 78.232 79.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +12117,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 76.454 83.058 0)
+			(at 78.232 81.6582 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11966,13 +12243,12 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 78.74 83.82 0)
+			(at 78.232 83.3262 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -12027,7 +12303,7 @@
 		(dnp no)
 		(uuid "c9a461e7-d6b1-4252-aed1-cca42abe19f2")
 		(property "Reference" "D28"
-			(at 209.042 147.066 90)
+			(at 217.17 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12395,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12186,7 +12461,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12238,7 +12512,7 @@
 		(dnp no)
 		(uuid "e5a36142-312c-4f96-aff4-287c192268a5")
 		(property "Reference" "R19"
-			(at 88.9 44.45 0)
+			(at 89.408 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +12750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myparts:SMD-16_L20.0-W6.5-P2.54-LS10.2-BL"
+		(property "Footprint" "MyParts:SMD-16_L20.0-W6.5-P2.54-LS10.2-BL"
 			(at 111.76 86.36 0)
 			(effects
 				(font
@@ -12579,7 +12853,7 @@
 		(dnp no)
 		(uuid "f2246815-a6ed-4652-ba73-26bb45837001")
 		(property "Reference" "C17"
-			(at 82.804 176.022 0)
+			(at 84.582 176.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12862,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 82.804 179.578 0)
+			(at 84.582 178.1782 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12714,13 +12988,12 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 85.09 180.34 0)
+			(at 84.582 179.8462 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -12775,7 +13048,7 @@
 		(dnp no)
 		(uuid "f5144f8e-b449-47f1-8bbd-11d0955edf6d")
 		(property "Reference" "D23"
-			(at 209.042 91.186 90)
+			(at 217.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +13125,7 @@
 		(dnp no)
 		(uuid "f8337dd9-d744-4195-8d46-559d626db6fd")
 		(property "Reference" "R18"
-			(at 82.55 44.45 0)
+			(at 83.058 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13074,11 +13347,12 @@
 		(dnp no)
 		(uuid "f8e527c4-6026-4d81-86a6-b746c4c248e4")
 		(property "Reference" "R25"
-			(at 78.74 151.638 90)
+			(at 78.74 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1kΩ"
@@ -13295,7 +13569,7 @@
 		(dnp no)
 		(uuid "fb154c6e-f4e3-4248-a783-b7227c41801f")
 		(property "Reference" "D26"
-			(at 196.342 136.906 90)
+			(at 204.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

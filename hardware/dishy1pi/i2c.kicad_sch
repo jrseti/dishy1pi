@@ -811,12 +811,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "MyParts:TPESD0402G05V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -910,7 +904,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
@@ -930,7 +924,7 @@
 				)
 			)
 			(symbol "TPESD0402G05V_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
@@ -3275,7 +3269,7 @@
 		(dnp no)
 		(uuid "09f2565a-3595-4245-9518-8079c009fa7f")
 		(property "Reference" "CN4"
-			(at 204.47 88.646 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3277,7 @@
 			)
 		)
 		(property "Value" "KF2EDGR-2.54-4P"
-			(at 204.47 104.394 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3352,7 @@
 		(fields_autoplaced yes)
 		(uuid "10f88821-8ca4-47e7-b7a6-ca8b436f347f")
 		(property "Reference" "C12"
-			(at 116.84 121.9199 0)
+			(at 116.84 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3361,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 116.84 124.46 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3499,7 +3493,6 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -3554,7 +3547,7 @@
 		(dnp no)
 		(uuid "1d872cc7-a448-4738-9a05-29ec47eb31b6")
 		(property "Reference" "R15"
-			(at 63.5 59.436 0)
+			(at 64.008 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3835,7 @@
 		(dnp no)
 		(uuid "324f001b-7b61-478e-8eb0-fe4ce70e73de")
 		(property "Reference" "CN5"
-			(at 204.47 131.826 0)
+			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3843,7 @@
 			)
 		)
 		(property "Value" "KF2EDGR-2.54-4P"
-			(at 204.47 147.574 0)
+			(at 204.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3984,7 @@
 		(fields_autoplaced yes)
 		(uuid "44259f52-9eeb-46c1-a2a4-c280c77753b7")
 		(property "Reference" "C9"
-			(at 172.72 46.9899 0)
+			(at 172.72 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +3993,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 172.72 49.53 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4132,7 +4125,6 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -4319,7 +4311,7 @@
 		(dnp no)
 		(uuid "48d234fb-f7d6-4fde-81b8-8aab7c54bf81")
 		(property "Reference" "R14"
-			(at 57.15 59.436 0)
+			(at 57.658 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4542,7 @@
 			)
 		)
 		(property "Value" "GNDIO"
-			(at 196.85 117.348 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4598,7 @@
 		(dnp no)
 		(uuid "53931317-9c97-4331-9e37-74a932467f85")
 		(property "Reference" "U7"
-			(at 90.932 62.23 0)
+			(at 93.98 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4606,7 @@
 			)
 		)
 		(property "Value" "ISO1540DR"
-			(at 99.568 77.216 0)
+			(at 100.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4758,7 @@
 		(dnp no)
 		(uuid "6019beae-c33d-4b2f-8bfb-d32ec03a5824")
 		(property "Reference" "R17"
-			(at 123.19 59.436 0)
+			(at 123.698 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,12 +4980,11 @@
 		(dnp no)
 		(uuid "69881fec-0f39-4d15-bd9f-c2b593fce2af")
 		(property "Reference" "D17"
-			(at 182.118 146.05 90)
+			(at 179.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPESD0402G05V"
@@ -5066,12 +5057,11 @@
 		(dnp no)
 		(uuid "6c30dcb9-9cfb-4af3-932c-9ca57923a5dc")
 		(property "Reference" "D14"
-			(at 178.054 102.87 90)
+			(at 189.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPESD0402G05V"
@@ -5340,12 +5330,11 @@
 		(dnp no)
 		(uuid "814cc455-63c7-4016-97a4-a9eed780b3ee")
 		(property "Reference" "D15"
-			(at 184.404 105.41 90)
+			(at 195.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPESD0402G05V"
@@ -5418,7 +5407,7 @@
 		(dnp no)
 		(uuid "8f1968ee-f194-417b-852a-d99ae8f4e08b")
 		(property "Reference" "R16"
-			(at 116.84 59.436 0)
+			(at 117.348 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,12 +5891,11 @@
 		(dnp no)
 		(uuid "b02a1021-0894-4765-80a0-9a3940c0d58b")
 		(property "Reference" "D13"
-			(at 171.704 99.06 90)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPESD0402G05V"
@@ -5980,12 +5968,11 @@
 		(dnp no)
 		(uuid "b1ffd895-bfd6-4cb5-90a0-afacbd151abd")
 		(property "Reference" "D18"
-			(at 188.468 148.59 90)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPESD0402G05V"
@@ -6147,12 +6134,11 @@
 		(dnp no)
 		(uuid "dda20060-e8af-4b38-b18a-6031fdb8fa0d")
 		(property "Reference" "D16"
-			(at 175.768 142.24 90)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPESD0402G05V"
@@ -6234,7 +6220,7 @@
 			)
 		)
 		(property "Value" "GNDIO"
-			(at 196.85 160.528 0)
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
