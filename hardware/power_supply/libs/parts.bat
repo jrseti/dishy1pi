@@ -8,7 +8,7 @@ set parts_list=C71687 C599585 C5677734 C14663 C5440143 C307488 C2041331 C71617 C
 :: Loop through each part number
 for %%p in (%parts_list%) do (
     echo Processing LCSC part: %%p
-    easyeda2kicad --full --lcsc_id=%%p --output ./%lib_name%
+    %lib_name%
 )
 
 echo Done. Library created in folder "%lib_name%"

@@ -49,3 +49,9 @@ Note that L1, D1 and R1 do not have symbol anf footprint files in the JLCPCB dat
 
 C5290394 (Male)
 C5290400 (Female)
+
+C5290400 (through hole PCB)
+C5290400
+
+C577594 - 2.54mm through hole pcb
+C577526
