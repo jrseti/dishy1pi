@@ -35,9 +35,6 @@ This will create the following files in the current directory:
 
 Sunsequent executions of the command with different LCSC part numbers will append to the same directory and myparts.kicad_sym file.
 
-## List of Parts
-
-See the file parts.txt. This file contains a list of parts that need to be converted to KiCad format for this project. You need to do this for each part.
 
 **IMPORTANT** 
 
