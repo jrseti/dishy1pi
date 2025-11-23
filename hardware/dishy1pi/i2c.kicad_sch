@@ -2367,6 +2367,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4977b635-137e-4b51-adc0-a1004e5059ae")
+	)
+	(wire
+		(pts
 			(xy 93.98 146.05) (xy 93.98 149.86)
 		)
 		(stroke
@@ -2374,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "4bccafc0-fad3-4a20-8151-7cea7679ad16")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e731e2a-9f26-4f47-b13e-34cc4383e43f")
 	)
 	(wire
 		(pts
@@ -3127,6 +3147,28 @@
 			)
 		)
 	)
+	(global_label "GNDPI"
+		(shape input)
+		(at 147.32 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59842b87-aa30-4e65-b9db-03b95988e860")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 121.9844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 176.53 39.37 90)
@@ -3140,6 +3182,28 @@
 		(uuid "6a722d27-60c1-4ada-8379-d41d08539269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 32.4192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNDIO"
+		(shape input)
+		(at 147.32 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "742d863f-4e42-4402-9fe2-6d66a4ef43b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 96.5239 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,6 +5750,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1410284-b1cf-45d7-be63-1a25d309b98b")
+		(property "Reference" "#PWR040"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDIO"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96df40df-b40c-4a62-bd4c-d57e55492492")
+		)
+		(instances
+			(project "DishyPi1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2849b2fb-7367-47ef-9d93-b400c9666642"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 105.41 59.69 0)
 		(unit 1)
@@ -5953,6 +6082,71 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2849b2fb-7367-47ef-9d93-b400c9666642"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1d64e58-c151-4dd1-b7b2-d5950961caca")
+		(property "Reference" "#PWR041"
+			(at 147.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPI"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "424711ce-ae61-441c-bdc7-d9d917a4cba3")
+		)
+		(instances
+			(project "DishyPi1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2849b2fb-7367-47ef-9d93-b400c9666642"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
