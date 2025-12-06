@@ -11,7 +11,13 @@
 		(comment 1 "Jon Richards - Engineer")
 	)
 	(lib_symbols
-		(symbol "MyParts:RTT021624FTH"
+		(symbol "MyParts:RS-03L1624FT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23,7 +29,7 @@
 					)
 				)
 			)
-			(property "Value" "RTT021624FTH"
+			(property "Value" "RS-03L1624FT"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -31,7 +37,7 @@
 					)
 				)
 			)
-			(property "Footprint" "myparts:R0402"
+			(property "Footprint" "myparts:R0603"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -40,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT021624FTH_C166525.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Guangdong-Fenghua-Advanced-Tech-RS-03L1624FT_C322061.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -58,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C166525"
+			(property "LCSC Part" "C322061"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -67,10 +73,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "RTT021624FTH_0_1"
+			(symbol "RS-03L1624FT_0_1"
 				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
 					(stroke
 						(width 0)
 						(type default)
@@ -2464,119 +2470,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PowerSupply:0603WAF1621T5E"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF1621T5E"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PowerSupply:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-62KR-1621-1_C22844.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C22844"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAF1621T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PowerSupply:1812L110_33MR"
 			(pin_numbers
 				(hide yes)
@@ -4586,7 +4479,7 @@
 	)
 	(text "1%"
 		(exclude_from_sim no)
-		(at 224.79 113.03 0)
+		(at 224.79 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4750,6 +4643,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91777dd9-04bf-404d-a5c4-a5cfcc88196a")
+	)
+	(junction
+		(at 223.52 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9246b0fe-62e8-40cc-a384-10c2ad1be2ea")
 	)
 	(junction
 		(at 223.52 104.14)
@@ -5011,7 +4910,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 116.84) (xy 223.52 116.84)
+			(xy 232.41 115.57) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5058,6 +4957,16 @@
 			(type default)
 		)
 		(uuid "55417f6d-8463-4195-b9cc-77bdc1a6d606")
+	)
+	(wire
+		(pts
+			(xy 223.52 115.57) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c01f4a-1648-44dd-9b58-6156b8b2b602")
 	)
 	(wire
 		(pts
@@ -8235,6 +8144,84 @@
 		)
 	)
 	(symbol
+		(lib_id "MyParts:RS-03L1624FT")
+		(at 223.52 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30b93c06-a9b3-4f75-a9fe-dbabef0acf52")
+		(property "Reference" "R30"
+			(at 224.79 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1624k"
+			(at 224.79 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MyParts:R0603"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Guangdong-Fenghua-Advanced-Tech-RS-03L1624FT_C322061.html"
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C322061"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6896e78-d30b-4aa7-a091-b04d24598295")
+		)
+		(pin "1"
+			(uuid "bc4840ff-658d-4a94-9b10-0719de409d19")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/38a6bbeb-d8bb-40a0-bcd1-f27437131055"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 50.8 60.96 180)
 		(unit 1)
@@ -8584,83 +8571,6 @@
 			(project "DishyPi1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/38a6bbeb-d8bb-40a0-bcd1-f27437131055"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyParts:RTT021624FTH")
-		(at 204.47 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43314cb8-5a51-4aa9-af2c-68bf4062907c")
-		(property "Reference" "R34"
-			(at 204.47 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RTT021624FTH"
-			(at 204.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "myparts:R0402"
-			(at 204.47 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT021624FTH_C166525.html"
-			(at 204.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C166525"
-			(at 204.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edbea1ac-ba2c-4b2a-8120-9c664505f74e")
-		)
-		(pin "1"
-			(uuid "12df9f59-5be7-4269-b7d2-9f51ab09ab62")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/38a6bbeb-d8bb-40a0-bcd1-f27437131055"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -9878,83 +9788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MyParts:RTT021624FTH")
-		(at 190.5 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ad99e23-c54e-43be-aa44-4272cc2882b3")
-		(property "Reference" "R33"
-			(at 190.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RTT021624FTH"
-			(at 190.5 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "myparts:R0402"
-			(at 190.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT021624FTH_C166525.html"
-			(at 190.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C166525"
-			(at 190.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1013ae11-11d0-450d-92e5-73473614d74b")
-		)
-		(pin "2"
-			(uuid "dfa6e494-ddb3-4210-8149-67a7ba8ad428")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/38a6bbeb-d8bb-40a0-bcd1-f27437131055"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,22pF")
 		(at 233.68 111.76 0)
 		(unit 1)
@@ -10512,84 +10345,6 @@
 			(project "DishyPi1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/38a6bbeb-d8bb-40a0-bcd1-f27437131055"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PowerSupply:0603WAF1621T5E")
-		(at 223.52 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be114689-8539-4e5b-8a3a-2081cebd1378")
-		(property "Reference" "R30"
-			(at 224.79 108.585 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1621Ω"
-			(at 224.79 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PowerSupply:R0603"
-			(at 215.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-62KR-1621-1_C22844.html"
-			(at 213.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22844"
-			(at 210.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "396d891e-c83b-4a54-9c74-70e4b13f268c")
-		)
-		(pin "2"
-			(uuid "3fa85eda-485e-4915-aab2-d4bb6362e91f")
-		)
-		(instances
-			(project "DishyPi1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/38a6bbeb-d8bb-40a0-bcd1-f27437131055"
-					(reference "R30")
 					(unit 1)
 				)
 			)
