@@ -6952,7 +6952,7 @@
 			)
 		)
 	)
-	(global_label "ENABLE"
+	(global_label "ENABLE1_MCU"
 		(shape input)
 		(at 55.88 77.47 180)
 		(fields_autoplaced yes)
@@ -6964,7 +6964,7 @@
 		)
 		(uuid "0cc0c293-7c84-4c23-9ef3-ccb159af3f32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.8796 77.47 0)
+			(at 39.6506 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7018,7 @@
 			)
 		)
 	)
-	(global_label "PUL"
+	(global_label "PUL1_MCU"
 		(shape input)
 		(at 55.88 82.55 180)
 		(fields_autoplaced yes)
@@ -7030,7 +7030,7 @@
 		)
 		(uuid "2fee5edd-c91c-4220-af45-152e3beca422")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.2662 82.55 0)
+			(at 43.0372 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7084,7 @@
 			)
 		)
 	)
-	(global_label "ENC_Z_MCU"
+	(global_label "ENC1_Z_MCU"
 		(shape input)
 		(at 55.88 67.31 180)
 		(fields_autoplaced yes)
@@ -7096,7 +7096,7 @@
 		)
 		(uuid "53705cdf-6009-46a9-8045-ad7b44decb09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.9487 67.31 0)
+			(at 40.7392 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +7106,7 @@
 			)
 		)
 	)
-	(global_label "LIMIT_SW1_MCU"
+	(global_label "LIMIT1_SW1_MCU"
 		(shape input)
 		(at 55.88 72.39 180)
 		(fields_autoplaced yes)
@@ -7118,7 +7118,7 @@
 		)
 		(uuid "55674ea4-6e08-4e54-9e6b-40fec9ef37cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.3806 72.39 0)
+			(at 37.1711 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7238,7 @@
 			)
 		)
 	)
-	(global_label "DIR"
+	(global_label "DIR1_MCU"
 		(shape input)
 		(at 55.88 80.01 180)
 		(fields_autoplaced yes)
@@ -7250,7 +7250,7 @@
 		)
 		(uuid "a9960b60-19b9-46f2-bbea-9898b01ff32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.75 80.01 0)
+			(at 43.521 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7260,7 @@
 			)
 		)
 	)
-	(global_label "ENC_A_MCU"
+	(global_label "ENC1_A_MCU"
 		(shape input)
 		(at 55.88 62.23 180)
 		(fields_autoplaced yes)
@@ -7272,7 +7272,7 @@
 		)
 		(uuid "afd7b42e-68f2-47fa-a14a-389ab8d28cbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0696 62.23 0)
+			(at 40.8601 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7326,7 @@
 			)
 		)
 	)
-	(global_label "ENC_B_MCU"
+	(global_label "ENC1_B_MCU"
 		(shape input)
 		(at 55.88 64.77 180)
 		(fields_autoplaced yes)
@@ -7338,7 +7338,7 @@
 		)
 		(uuid "db5131ed-b428-488b-8875-f092c29aa998")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8882 64.77 0)
+			(at 40.6787 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7348,7 @@
 			)
 		)
 	)
-	(global_label "LIMIT_SW2_MCU"
+	(global_label "LIMIT1_SW2_MCU"
 		(shape input)
 		(at 55.88 74.93 180)
 		(fields_autoplaced yes)
@@ -7360,7 +7360,7 @@
 		)
 		(uuid "e1d804ea-f1c7-49f5-a64c-c34e8148bba4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.3806 74.93 0)
+			(at 37.1711 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13467,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3ab438cf-211a-4f77-8c57-80f47d57ba40")
-		(property "Sheetname" "IO"
+		(property "Sheetname" "Axis_1"
 			(at 205.74 128.8284 0)
 			(effects
 				(font
