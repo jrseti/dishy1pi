@@ -159,7 +159,7 @@
 		(uuid "84ef2619-290c-4f6a-aea3-e2b5e787f0d6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/myparts.3dshapes/CONN-TH_P2.54_KF2EDGR-2.54-2P.step"
+	(model "C:/Users/jrset/OneDrive/projects/dishy1pi/hardware/dishy1pi/libs/myparts.3dshapes/CONN-TH_P2.54_KF2EDGR-2.54-2P.step"
 		(offset
 			(xyz 0 -3.9 0)
 		)

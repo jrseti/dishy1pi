@@ -242,7 +242,7 @@
 		(uuid "faeae571-9974-4edc-ace8-bb9c89a684cf")
 	)
 	(embedded_fonts no)
-	(model "${DISHY1_PARTS}/myparts.3dshapes/SMD-16_L20.0-W6.5-H3.5-LS10.2-P2.54.step"
+	(model "C:/Users/jrset/OneDrive/projects/dishy1pi/hardware/dishy1pi/libs/myparts.3dshapes/SMD-16_L20.0-W6.5-H3.5-LS10.2-P2.54.step"
 		(offset
 			(xyz 0 0 0.5)
 		)

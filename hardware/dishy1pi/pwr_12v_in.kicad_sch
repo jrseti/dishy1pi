@@ -85,7 +85,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -103,7 +103,9 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "RS-03L1624FT_1_1"
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2471,12 +2473,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "PowerSupply:1812L110_33MR"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3020,12 +3016,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "PowerSupply:CC0603KRX7R9BB104"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3379,12 +3369,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "PowerSupply:GRM31CR61E476ME44L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4645,12 +4629,6 @@
 		(uuid "91777dd9-04bf-404d-a5c4-a5cfcc88196a")
 	)
 	(junction
-		(at 223.52 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9246b0fe-62e8-40cc-a384-10c2ad1be2ea")
-	)
-	(junction
 		(at 223.52 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4910,16 +4888,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 115.57) (xy 223.52 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c28a198-41e7-4441-b34f-5c17a7ecb3d7")
-	)
-	(wire
-		(pts
 			(xy 191.77 109.22) (xy 207.01 109.22)
 		)
 		(stroke
@@ -4960,16 +4928,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 115.57) (xy 222.25 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57c01f4a-1648-44dd-9b58-6156b8b2b602")
-	)
-	(wire
-		(pts
 			(xy 236.22 64.77) (xy 237.49 64.77)
 		)
 		(stroke
@@ -4977,6 +4935,16 @@
 			(type default)
 		)
 		(uuid "5cf2cf7c-26fc-4b50-b8df-0d3a174c94ce")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 233.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8d176f-a032-47db-9a40-088e3143cb94")
 	)
 	(wire
 		(pts
@@ -5020,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 104.14) (xy 223.52 105.41)
+			(xy 223.52 104.14) (xy 223.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5307,16 +5275,6 @@
 			(type default)
 		)
 		(uuid "c859ed92-1719-4f12-ad3a-536cab7a6f9a")
-	)
-	(wire
-		(pts
-			(xy 223.52 115.57) (xy 223.52 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceffe70d-b577-4b99-81e4-d23318949601")
 	)
 	(wire
 		(pts

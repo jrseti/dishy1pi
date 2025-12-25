@@ -38,7 +38,7 @@
 					)
 				)
 			)
-			(property "Footprint" "myparts:R1206"
+			(property "Footprint" "MyParts:C0603"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -125,124 +125,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MyParts:1206W4F1201T5E"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1206W4F1201T5E"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "myparts:R1206"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2KR-1201-1_C17891.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C17891"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1206W4F1201T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MyParts:KF2EDGR-2.54-6P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN6"
+			(property "Reference" "CN"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -297,7 +184,7 @@
 			(symbol "KF2EDGR-2.54-6P_0_1"
 				(rectangle
 					(start -2.54 8.89)
-					(end 5.08 -8.89)
+					(end 2.54 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -320,7 +207,7 @@
 				(pin passive line
 					(at -5.08 6.35 0)
 					(length 2.54)
-					(name "PUL+"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -335,12 +222,10 @@
 						)
 					)
 				)
-			)
-			(symbol "KF2EDGR-2.54-6P_1_1"
 				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
-					(name "PUL-"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -358,7 +243,7 @@
 				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
-					(name "DIR+"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -376,7 +261,7 @@
 				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
-					(name "DIR-"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -394,7 +279,7 @@
 				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
-					(name "MF+"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -412,7 +297,7 @@
 				(pin passive line
 					(at -5.08 -6.35 0)
 					(length 2.54)
-					(name "MF-"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1429,9 +1314,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "MyParts:LTV-847S"
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2126,13 +2008,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MyParts:TPESD0402G05V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPESD0402G05V"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "MyParts:D0402-BI"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C558615"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPESD0402G05V_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPESD0402G05V_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MyParts:TPESD0402G12V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2787,708 +2798,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPESD0402G05V_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPESD0402G05V"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MyParts:D0402-BI"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C558615"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPESD0402G05V_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPESD0402G05V_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPESD0402G05V_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPESD0402G05V"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MyParts:D0402-BI"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C558615"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPESD0402G05V_2_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPESD0402G05V_2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPESD0402G05V_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPESD0402G05V"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MyParts:D0402-BI"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C558615"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPESD0402G05V_3_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPESD0402G05V_3_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPESD0402G05V_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPESD0402G05V"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MyParts:D0402-BI"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C558615"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPESD0402G05V_4_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 2.03) (xy 0 1.27) (xy 0 -1.27) (xy -0.76 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPESD0402G05V_4_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPESD0402G12V_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPESD0402G12V"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MyParts:D0402-BI"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_TECH-PUBLIC-TPESD0402G12V_C558617.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C558617"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPESD0402G12V_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 -1.78) (xy 0 -1.27) (xy 0 1.27) (xy -0.51 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8183,7 +7492,7 @@
 		)
 		(uuid "f53ff611-a7b0-46d0-82f2-4349b84cbad5")
 	)
-	(global_label "E_LIM_1{slash}25"
+	(global_label "EL_LIM_1_MCU"
 		(shape input)
 		(at 133.35 72.39 0)
 		(fields_autoplaced yes)
@@ -8195,7 +7504,7 @@
 		)
 		(uuid "0054cf60-d645-44a5-82d9-17fb829bbb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.5578 72.39 0)
+			(at 149.8559 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +7536,7 @@
 			)
 		)
 	)
-	(global_label "E_ENC_B{slash}22"
+	(global_label "EL_ENC_B_MCU"
 		(shape input)
 		(at 133.35 57.15 0)
 		(fields_autoplaced yes)
@@ -8239,7 +7548,7 @@
 		)
 		(uuid "28267f72-04c6-49ac-8eab-d28833df5390")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.2835 57.15 0)
+			(at 150.5816 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +7580,7 @@
 			)
 		)
 	)
-	(global_label "E_MF{slash}24"
+	(global_label "EL_ENABLE_MCU"
 		(shape input)
 		(at 83.82 149.86 180)
 		(fields_autoplaced yes)
@@ -8283,7 +7592,7 @@
 		)
 		(uuid "3ffa2b75-e603-4c89-8ec1-e51728cd5ba2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3336 149.86 0)
+			(at 65.5603 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,7 +7624,7 @@
 			)
 		)
 	)
-	(global_label "E_PUL{slash}18"
+	(global_label "EL_PUL_MCU"
 		(shape input)
 		(at 83.82 123.19 180)
 		(fields_autoplaced yes)
@@ -8327,7 +7636,7 @@
 		)
 		(uuid "427c0460-51b0-45b5-b349-0b8d2ca68b78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.245 123.19 0)
+			(at 68.9469 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +7646,7 @@
 			)
 		)
 	)
-	(global_label "E_ENC_A{slash}17"
+	(global_label "EL_ENC_A_MCU"
 		(shape input)
 		(at 133.35 49.53 0)
 		(fields_autoplaced yes)
@@ -8349,7 +7658,7 @@
 		)
 		(uuid "4e30533c-ac80-4a72-8bb3-e9c3e0ee8b79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.1021 49.53 0)
+			(at 150.4002 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +7690,7 @@
 			)
 		)
 	)
-	(global_label "E_LIM_2{slash}16"
+	(global_label "EL_LIM_2_MCU"
 		(shape input)
 		(at 132.08 166.37 0)
 		(fields_autoplaced yes)
@@ -8393,7 +7702,7 @@
 		)
 		(uuid "729fe331-0ba8-444d-9666-e637f31887a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.2878 166.37 0)
+			(at 148.5859 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +7756,7 @@
 			)
 		)
 	)
-	(global_label "E_DIR{slash}23"
+	(global_label "EL_DIR_MCU"
 		(shape input)
 		(at 83.82 130.81 180)
 		(fields_autoplaced yes)
@@ -8459,7 +7768,7 @@
 		)
 		(uuid "91cad778-66e8-4418-b202-4307fd856a03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.7288 130.81 0)
+			(at 69.4307 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +7822,7 @@
 			)
 		)
 	)
-	(global_label "E_ENC_Z{slash}27"
+	(global_label "EL_ENC_Z_MCU"
 		(shape input)
 		(at 133.35 64.77 0)
 		(fields_autoplaced yes)
@@ -8525,7 +7834,7 @@
 		)
 		(uuid "f1070829-5782-4404-aa2b-987f32d8a4f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.223 64.77 0)
+			(at 150.5211 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +7867,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G05V_3")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 199.39 77.47 270)
 		(unit 1)
@@ -8749,82 +8057,6 @@
 			(project "DishyPi1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyParts:1206W4F1201T5E")
-		(at 262.89 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f8a48b0-bc57-4756-8342-b085b0e22f37")
-		(property "Reference" "R12"
-			(at 262.89 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.2K"
-			(at 262.89 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MyParts:R1206"
-			(at 262.89 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2KR-1201-1_C17891.html"
-			(at 262.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17891"
-			(at 262.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "179f99f4-66ed-4ca1-bf2c-87a56712242b")
-		)
-		(pin "1"
-			(uuid "73108334-2914-4d93-ad65-e3ca3faec0d4")
-		)
-		(instances
-			(project "DishyPi1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9934,7 +9166,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G12V_1")
 		(lib_id "MyParts:TPESD0402G12V")
 		(at 246.38 128.27 270)
 		(unit 1)
@@ -10014,7 +9245,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G05V_1")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 212.09 82.55 270)
 		(unit 1)
@@ -10175,7 +9405,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G05V_4")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 194.31 147.32 270)
 		(unit 1)
@@ -11135,83 +10364,6 @@
 		)
 	)
 	(symbol
-		(lib_name "1206W4F1201T5E_1")
-		(lib_id "MyParts:1206W4F1201T5E")
-		(at 240.03 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a06d4031-8021-416c-b7df-f20d5fa7a86b")
-		(property "Reference" "R11"
-			(at 240.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.2K"
-			(at 240.03 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MyParts:R1206"
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2KR-1201-1_C17891.html"
-			(at 240.03 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17891"
-			(at 240.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5d0feb5-0da1-4677-b1b9-98920599082e")
-		)
-		(pin "1"
-			(uuid "d79d98ad-0870-4d42-adf5-33c3c32fc7ca")
-		)
-		(instances
-			(project "DishyPi1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 171.45 270)
 		(unit 1)
@@ -11497,7 +10649,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G05V_4")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 168.91 137.16 270)
 		(unit 1)
@@ -11635,6 +10786,84 @@
 			(project "DishyPi1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1206W4F1201T5E_1")
+		(lib_id "MyParts:1206W4F1201T5E")
+		(at 262.89 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9a6b0eb-cf80-41d3-bb0d-ed362dfb1c54")
+		(property "Reference" "R11"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MyParts:C0603"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2KR-1201-1_C17891.html"
+			(at 262.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17891"
+			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a55850cc-6c86-4a26-ac19-0f20494faa21")
+		)
+		(pin "1"
+			(uuid "9ad3417c-829f-4892-8735-4d597a8d5de2")
+		)
+		(instances
+			(project "DishyPi1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12150,6 +11379,83 @@
 		)
 	)
 	(symbol
+		(lib_name "1206W4F1201T5E_1")
+		(lib_id "MyParts:1206W4F1201T5E")
+		(at 240.03 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ec0751-6490-4f8a-8597-7036f78f35e3")
+		(property "Reference" "R38"
+			(at 240.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyParts:C0603"
+			(at 240.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2KR-1201-1_C17891.html"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17891"
+			(at 240.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a06532d8-3224-4bdd-a2c1-1d94c70c1cbd")
+		)
+		(pin "1"
+			(uuid "60a78d7a-9572-4e6e-9fe9-5e030dc5ed3c")
+		)
+		(instances
+			(project "DishyPi1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,1kΩ")
 		(at 93.98 40.64 0)
 		(unit 1)
@@ -12437,7 +11743,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G05V_2")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 205.74 80.01 270)
 		(unit 1)
@@ -12515,7 +11820,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPESD0402G05V_4")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 181.61 142.24 270)
 		(unit 1)

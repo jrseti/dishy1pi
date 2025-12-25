@@ -247,23 +247,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "lib_symbol_mismatch|2044700|1397000|559ca21e-88f8-4573-8a6f-6a5ee1868aed|00000000-0000-0000-0000-000000000000|||",
+        "multiple_net_names|2247900|838200|778e52b3-5738-4a0d-b62f-5565374f0474|b8747d47-a400-43df-b7b7-edbd3fc2daf6|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d",
         ""
       ],
       [
-        "lib_symbol_mismatch|2082800|1384300|aeff7272-4915-4f7f-83aa-d075f46c84d0|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|2108200|850900|f4d7a7b9-03d0-4de1-8d4d-ac3d4d9d34a4|59956134-00ab-44fb-b030-ae3c54db1613|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394",
-        ""
-      ],
-      [
-        "multiple_net_names|2209800|800100|f4d7a7b9-03d0-4de1-8d4d-ac3d4d9d34a4|59956134-00ab-44fb-b030-ae3c54db1613|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394",
-        ""
-      ],
-      [
-        "multiple_net_names|2247900|787400|778e52b3-5738-4a0d-b62f-5565374f0474|77bf81ff-ef33-459c-85a2-5c708fd70d57|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d09dd7bf-7813-496f-944b-ba766657ce5d",
+        "multiple_net_names|2679700|1231900|1e70ab32-e463-4d35-b128-16e2732443a3|16f2093c-8816-4877-bdc0-b114242c281c|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ce2ab250-a57c-49c3-a7e8-2e9dc039f394",
         ""
       ]
     ],
@@ -983,6 +971,14 @@
     [
       "38a6bbeb-d8bb-40a0-bcd1-f27437131055",
       "Power"
+    ],
+    [
+      "404050b5-3183-46ce-97ff-982d81bbb3dc",
+      "MCU PID"
+    ],
+    [
+      "6b1ed89f-8e34-4ff6-abb0-3d134a604c23",
+      "mcu_notes"
     ]
   ],
   "text_variables": {}
