@@ -57,33 +57,33 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define ENC_A_pin_Pin GPIO_PIN_0
-#define ENC_A_pin_GPIO_Port GPIOA
-#define ENC_B_pin_Pin GPIO_PIN_1
-#define ENC_B_pin_GPIO_Port GPIOA
-#define ENC_Z_pin_Pin GPIO_PIN_2
-#define ENC_Z_pin_GPIO_Port GPIOA
-#define ENC_Z_pin_EXTI_IRQn EXTI2_IRQn
-#define LIMIT_SW1_pin_Pin GPIO_PIN_4
-#define LIMIT_SW1_pin_GPIO_Port GPIOA
-#define LIMIT_SW2_pin_Pin GPIO_PIN_5
-#define LIMIT_SW2_pin_GPIO_Port GPIOA
-#define ENABLE_Pin_Pin GPIO_PIN_6
-#define ENABLE_Pin_GPIO_Port GPIOA
-#define DIR_pin_Pin GPIO_PIN_7
-#define DIR_pin_GPIO_Port GPIOA
-#define PUL_pin_Pin GPIO_PIN_0
-#define PUL_pin_GPIO_Port GPIOB
-#define I2C_SCL_pin_Pin GPIO_PIN_8
-#define I2C_SCL_pin_GPIO_Port GPIOA
-#define I2C_SDA_pin_Pin GPIO_PIN_5
-#define I2C_SDA_pin_GPIO_Port GPIOB
-#define USART1_TX_pin_Pin GPIO_PIN_6
-#define USART1_TX_pin_GPIO_Port GPIOB
-#define USART1_RX_pin_Pin GPIO_PIN_7
-#define USART1_RX_pin_GPIO_Port GPIOB
-#define Boot0_pin_Pin GPIO_PIN_8
-#define Boot0_pin_GPIO_Port GPIOB
+#define ENC1_A_Pin GPIO_PIN_0
+#define ENC1_A_GPIO_Port GPIOA
+#define ENC1_B_Pin GPIO_PIN_1
+#define ENC1_B_GPIO_Port GPIOA
+#define ENC1_Z_Pin GPIO_PIN_2
+#define ENC1_Z_GPIO_Port GPIOA
+#define ENC1_Z_EXTI_IRQn EXTI2_IRQn
+#define LIMIT1_SW1_Pin GPIO_PIN_4
+#define LIMIT1_SW1_GPIO_Port GPIOA
+#define LIMIT1_SW2_Pin GPIO_PIN_5
+#define LIMIT1_SW2_GPIO_Port GPIOA
+#define ENABLE1_Pin GPIO_PIN_6
+#define ENABLE1_GPIO_Port GPIOA
+#define DIR1_Pin GPIO_PIN_7
+#define DIR1_GPIO_Port GPIOA
+#define PUL1_Pin GPIO_PIN_0
+#define PUL1_GPIO_Port GPIOB
+#define I2C_SCL_Pin GPIO_PIN_8
+#define I2C_SCL_GPIO_Port GPIOA
+#define I2C_SDA_Pin GPIO_PIN_5
+#define I2C_SDA_GPIO_Port GPIOB
+#define USART1_TX_Pin GPIO_PIN_6
+#define USART1_TX_GPIO_Port GPIOB
+#define USART1_RX_Pin GPIO_PIN_7
+#define USART1_RX_GPIO_Port GPIOB
+#define Boot0_Pin GPIO_PIN_8
+#define Boot0_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

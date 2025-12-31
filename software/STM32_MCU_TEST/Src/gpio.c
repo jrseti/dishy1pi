@@ -50,32 +50,32 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, ENABLE_Pin_Pin|DIR_pin_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, ENABLE1_Pin|DIR1_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : ENC_Z_pin_Pin */
-  GPIO_InitStruct.Pin = ENC_Z_pin_Pin;
+  /*Configure GPIO pin : ENC1_Z_Pin */
+  GPIO_InitStruct.Pin = ENC1_Z_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(ENC_Z_pin_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(ENC1_Z_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LIMIT_SW1_pin_Pin LIMIT_SW2_pin_Pin */
-  GPIO_InitStruct.Pin = LIMIT_SW1_pin_Pin|LIMIT_SW2_pin_Pin;
+  /*Configure GPIO pins : LIMIT1_SW1_Pin LIMIT1_SW2_Pin */
+  GPIO_InitStruct.Pin = LIMIT1_SW1_Pin|LIMIT1_SW2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : ENABLE_Pin_Pin DIR_pin_Pin */
-  GPIO_InitStruct.Pin = ENABLE_Pin_Pin|DIR_pin_Pin;
+  /*Configure GPIO pins : ENABLE1_Pin DIR1_Pin */
+  GPIO_InitStruct.Pin = ENABLE1_Pin|DIR1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : Boot0_pin_Pin */
-  GPIO_InitStruct.Pin = Boot0_pin_Pin;
+  /*Configure GPIO pin : Boot0_Pin */
+  GPIO_InitStruct.Pin = Boot0_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(Boot0_pin_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(Boot0_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI2_IRQn, 0, 0);

@@ -6488,7 +6488,7 @@
 			)
 		)
 	)
-	(global_label "ENC_1_Z"
+	(global_label "ENC1_Z"
 		(shape input)
 		(at 180.34 57.15 90)
 		(fields_autoplaced yes)
@@ -6500,7 +6500,7 @@
 		)
 		(uuid "3465a924-929a-4e68-a9af-d2c2e453c0d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 46.0611 90)
+			(at 180.34 47.0287 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6532,7 @@
 			)
 		)
 	)
-	(global_label "ENC_1_A"
+	(global_label "ENC1_A"
 		(shape input)
 		(at 167.64 57.15 90)
 		(fields_autoplaced yes)
@@ -6544,7 +6544,7 @@
 		)
 		(uuid "4e405f16-5c71-46a0-9ea0-abf04e6b75af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 46.182 90)
+			(at 167.64 47.1496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +6884,7 @@
 			)
 		)
 	)
-	(global_label "ENC_1_B"
+	(global_label "ENC1_B"
 		(shape input)
 		(at 173.99 57.15 90)
 		(fields_autoplaced yes)
@@ -6896,7 +6896,7 @@
 		)
 		(uuid "f916a8ef-ed52-4ab4-bf88-bc1c45425f5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 46.0006 90)
+			(at 173.99 46.9682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
