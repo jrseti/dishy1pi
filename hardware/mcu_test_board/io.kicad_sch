@@ -7024,7 +7024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPI"
+		(property "Value" "GND"
 			(at 90.17 171.45 90)
 			(effects
 				(font
@@ -7871,7 +7871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPI"
+		(property "Value" "GND"
 			(at 62.23 146.05 90)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPI"
+		(property "Value" "GND"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -9359,7 +9359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPI"
+		(property "Value" "GND"
 			(at 64.77 153.67 90)
 			(effects
 				(font
@@ -12235,7 +12235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPI"
+		(property "Value" "GND"
 			(at 62.23 133.35 90)
 			(effects
 				(font
