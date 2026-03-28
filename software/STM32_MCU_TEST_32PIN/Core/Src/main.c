@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -104,13 +104,14 @@ int main(void)
   MX_TIM6_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  App_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    App_Run();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -447,7 +448,63 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+/**
+ * @brief  UART RX complete — fires after each byte received.
+ *         Routes byte into the ModBus frame assembler.
+ */
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1) {
+        /* s_mb.rx_byte is the byte just received (set up in App_Init) */
+        //extern uint8_t _mb_rx_byte_extern;  /* See note below */
+        ModBus_RxByteCallback(huart->pRxBuffPtr[-1]);
+        /* Re-arm single-byte receive is handled inside ModBus_RxByteCallback */
+    }
+}
+ 
+/*
+ * NOTE on RX byte access:
+ * The simplest approach is to declare the rx_byte field accessible.
+ * In app.c the static struct has a field `rx_byte`. To avoid exposing
+ * internals, add a tiny accessor in app.c:
+ *
+ *   uint8_t App_GetLastRxByte(void) { return s_mb.rx_byte; }
+ *
+ * Then call ModBus_RxByteCallback(App_GetLastRxByte()) here.
+ *
+ * OR: Declare rx_byte at file scope in app.c (not inside the struct)
+ * so the HAL callback can reference it directly via extern.
+ *
+ * The cleanest approach: in app.c, change s_mb.rx_byte to:
+ *   uint8_t g_mb_rx_byte;
+ * (at file scope, not static), add `extern uint8_t g_mb_rx_byte;`
+ * to app.h, and call ModBus_RxByteCallback(g_mb_rx_byte) here.
+ */
+ 
+ 
+/**
+ * @brief  TIM period elapsed — fires every 1 ms from TIM6.
+ *         Used for ModBus inter-frame gap detection and uptime.
+ */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim->Instance == TIM6) {
+        App_1msTickCallback();
+    }
+    /* Note: HAL_IncTick() is typically called here too if SysTick
+     * is used — CubeMX usually places it here already. Keep it. */
+}
+ 
+ 
+/**
+ * @brief  EXTI callback — fires on PA2 rising edge (encoder Z / index).
+ */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if (GPIO_Pin == GPIO_PIN_2) {
+        Encoder_IndexCallback();
+    }
+}
 /* USER CODE END 4 */
 
 /**
