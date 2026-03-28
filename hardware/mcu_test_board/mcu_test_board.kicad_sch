@@ -325,7 +325,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MyParts:19-213SYGC_S530-E2_TR8"
+		(symbol "LTST-S270KGKT_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -343,7 +343,7 @@
 					)
 				)
 			)
-			(property "Value" "19-213SYGC/S530-E2/TR8"
+			(property "Value" "LTST-S270KGKT"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -351,7 +351,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MyParts:LED-SMD_L1.6-W0.8-FD_GREEN"
+			(property "Footprint" "MyParts:LED-SMD_L1.7-W0.6-RD"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -360,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Everlight-Elec-19-213SYGC-S530-E2-TR8_C409444.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125113.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -378,7 +378,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C409444"
+			(property "LCSC Part" "C125113"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -387,10 +387,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "19-213SYGC_S530-E2_TR8_0_1"
+			(symbol "LTST-S270KGKT_1_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.52) (xy 1.27 0) (xy -1.27 1.78) (xy -1.27 -1.52)
+						(xy -3.81 3.3) (xy -2.79 2.79) (xy -3.3 2.29) (xy -3.81 3.3)
 					)
 					(stroke
 						(width 0)
@@ -402,43 +402,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.02 2.54) (xy 2.79 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.03) (xy 1.27 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.03 1.52) (xy 3.81 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.79 4.32) (xy 1.78 3.81) (xy 2.29 3.3) (xy 2.79 4.32)
+						(xy -2.79 4.32) (xy -1.78 3.81) (xy -2.29 3.3) (xy -2.79 4.32)
 					)
 					(stroke
 						(width 0)
@@ -450,7 +414,43 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.3) (xy 2.79 2.79) (xy 3.3 2.29) (xy 3.81 3.3)
+						(xy -2.03 1.52) (xy -3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.03) (xy -1.27 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 2.54) (xy -2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
 					)
 					(stroke
 						(width 0)
@@ -463,7 +463,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "+"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -478,12 +478,10 @@
 						)
 					)
 				)
-			)
-			(symbol "19-213SYGC_S530-E2_TR8_1_1"
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
-					(name "-"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1516,6 +1514,174 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyParts:LTST-S270KGKT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTST-S270KGKT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MyParts:LED-SMD_L1.7-W0.6-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125113.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C125113"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-S270KGKT_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.3) (xy -2.79 2.79) (xy -3.3 2.29) (xy -3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 4.32) (xy -1.78 3.81) (xy -2.29 3.3) (xy -2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 1.52) (xy -3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.03) (xy -1.27 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 2.54) (xy -2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9300,84 +9466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MyParts:19-213SYGC_S530-E2_TR8")
-		(at 118.11 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48e52d50-5725-4ae7-974a-7e2b46978f0a")
-		(property "Reference" "LED2"
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "19-213SYGC/S530-E2/TR8"
-			(at 119.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MyParts:LED-SMD_L1.6-W0.8-FD_GREEN"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Everlight-Elec-19-213SYGC-S530-E2-TR8_C409444.html"
-			(at 118.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C409444"
-			(at 118.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56412285-dd1a-4d85-b9d9-4170319f4bb9")
-		)
-		(pin "1"
-			(uuid "9e8511ad-fa0e-4c61-835a-8a9050de8d72")
-		)
-		(instances
-			(project "mcu_test_board"
-				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MyParts:SM04B-SRSS-TB(LF)(SN)")
 		(at 187.96 102.87 90)
 		(unit 1)
@@ -10428,6 +10516,87 @@
 		)
 	)
 	(symbol
+		(lib_name "LTST-S270KGKT_1")
+		(lib_id "MyParts:LTST-S270KGKT")
+		(at 118.11 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76c7be02-a506-4f73-8492-e5198069753d")
+		(property "Reference" "LED2"
+			(at 117.094 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-S270KGKT"
+			(at 120.6499 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MyParts:LED-SMD_L1.7-W0.6-RD"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125113.html"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C125113"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "641a2c24-9ade-42b2-b11b-68bf7b58b3df")
+		)
+		(pin "1"
+			(uuid "7233860f-3746-4400-b5f4-97eca03228a3")
+		)
+		(instances
+			(project "mcu_test_board"
+				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MyParts:NX2016SA-16MHZ-EXS00A-CS07826")
 		(at 102.87 133.35 0)
 		(unit 1)
@@ -10906,33 +11075,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MyParts:19-213SYGC_S530-E2_TR8")
+		(lib_id "MyParts:LTST-S270KGKT")
 		(at 63.5 177.8 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "98b70487-3bf3-4ff5-94f8-fe8216f772b4")
+		(uuid "89e94f82-422f-4979-98b6-963dbfbc962d")
 		(property "Reference" "LED1"
-			(at 57.15 177.8 90)
+			(at 59.69 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "19-213SYGC/S530-E2/TR8"
-			(at 69.85 179.07 0)
+		(property "Value" "LTST-S270KGKT"
+			(at 59.69 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyParts:LED-SMD_L1.6-W0.8-FD_GREEN"
+		(property "Footprint" "MyParts:LED-SMD_L1.7-W0.6-RD"
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -10941,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Everlight-Elec-19-213SYGC-S530-E2-TR8_C409444.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125113.html"
 			(at 53.34 177.8 0)
 			(effects
 				(font
@@ -10959,7 +11130,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C409444"
+		(property "LCSC Part" "C125113"
 			(at 50.8 177.8 0)
 			(effects
 				(font
@@ -10969,13 +11140,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "59973555-0c5c-4171-b18a-96fe23680032")
+			(uuid "286e55ca-4c1d-497f-8d24-d2e60410450e")
 		)
 		(pin "1"
-			(uuid "3d3f9dd5-1a0f-4b73-93c0-abdcb1e909f5")
+			(uuid "38183c7b-3145-4f93-a93e-76246e081951")
 		)
 		(instances
-			(project "mcu_test_board"
+			(project ""
 				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59"
 					(reference "LED1")
 					(unit 1)

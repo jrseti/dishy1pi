@@ -11,6 +11,281 @@
 		(company "JRDish")
 	)
 	(lib_symbols
+		(symbol "LTV-817S-TA1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTV-817S-TA1"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MyParts:OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_LTV-817S-TA1_C125121.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C125121"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTV-817S-TA1_1_0_1"
+				(rectangle
+					(start -6.35 4.32)
+					(end 6.35 -4.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -3.05 2.54) (xy -3.05 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.57 1.27) (xy -3.05 -1.27) (xy -1.27 1.27) (xy -4.57 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 -0.25) (xy 0.76 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 -1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.25 0.76) (xy 1.52 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -2.03) (xy 0.25 -1.02) (xy -0.25 -1.52) (xy 0.76 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 -1.02) (xy 1.02 0) (xy 0.51 -0.51) (xy 1.52 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.29) (xy 3.81 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.76) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 5.59 -1.27) (xy 4.83 -2.29) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MyParts:KF2EDGR-2.54-6P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -465,7 +740,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MyParts:LTV817S"
+			(property "Footprint" "MyParts:OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BL"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -645,7 +920,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 2.54 0)
 					(length 5.08)
 					(name "1"
@@ -681,7 +956,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 2.54 180)
 					(length 5.08)
 					(name "4"
@@ -740,7 +1015,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MyParts:LTV827S-TA1"
+			(property "Footprint" "myparts:SMD-8_L9.8-W6.6-P2.54-LS10.3-BL"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -1052,7 +1327,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 6.35 0)
 					(length 5.08)
 					(name "1"
@@ -1088,7 +1363,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 -1.27 0)
 					(length 5.08)
 					(name "3"
@@ -1124,7 +1399,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 6.35 180)
 					(length 5.08)
 					(name "8"
@@ -1160,7 +1435,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 -1.27 180)
 					(length 5.08)
 					(name "6"
@@ -1603,7 +1878,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 13.97 0)
 					(length 5.08)
 					(name "AN1"
@@ -1639,7 +1914,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 6.35 0)
 					(length 5.08)
 					(name "AN2"
@@ -1675,7 +1950,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 -1.27 0)
 					(length 5.08)
 					(name "AN3"
@@ -1711,7 +1986,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 -8.89 0)
 					(length 5.08)
 					(name "AN4"
@@ -1747,7 +2022,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 13.97 180)
 					(length 5.08)
 					(name "COL1"
@@ -1783,7 +2058,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 6.35 180)
 					(length 5.08)
 					(name "COL2"
@@ -1819,7 +2094,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 -1.27 180)
 					(length 5.08)
 					(name "COL3"
@@ -1855,7 +2130,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 11.43 -8.89 180)
 					(length 5.08)
 					(name "COL4"
@@ -7657,6 +7932,105 @@
 		)
 	)
 	(symbol
+		(lib_id "MyParts:KF2EDGR-2.54-9P")
+		(at 200.66 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba6b284-cd6d-4353-9734-a9f70421403a")
+		(property "Reference" "CN7"
+			(at 198.628 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KF2EDGR-2.54-9P"
+			(at 197.866 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyParts:CONN-TH_9P-P2.54_KF2EDGR-2.54-9P"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Cixi-Kefa-Elec-KF2EDGR-2-54-9P_C577601.html"
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C577601"
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007ee7a4-8f3e-450f-b4c9-944d19d53ea9")
+		)
+		(pin "5"
+			(uuid "e592e957-46e6-4671-84a6-d8f94c88041c")
+		)
+		(pin "8"
+			(uuid "e0c53498-dd03-4a9a-80b4-2fd654551251")
+		)
+		(pin "6"
+			(uuid "01a56089-4347-4c08-8877-9a66d3e651cb")
+		)
+		(pin "7"
+			(uuid "33eeea83-bd5b-4470-8e7e-9f5f74609345")
+		)
+		(pin "2"
+			(uuid "60b8bd2f-5ac7-40b6-9a16-f39cf53174b0")
+		)
+		(pin "9"
+			(uuid "c00cdf9e-b02f-4a66-9f8d-3e2865de0a4c")
+		)
+		(pin "3"
+			(uuid "e7b52f55-35aa-44b0-b141-82b4b55df25c")
+		)
+		(pin "4"
+			(uuid "97753b47-1849-4f6a-b060-6a542cb6adb1")
+		)
+		(instances
+			(project ""
+				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59/3ab438cf-211a-4f77-8c57-80f47d57ba40"
+					(reference "CN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "TPESD0402G05V_4")
 		(lib_id "MyParts:TPESD0402G05V")
 		(at 167.64 69.85 270)
@@ -7729,125 +8103,6 @@
 			(project "mcu_test_board"
 				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59/3ab438cf-211a-4f77-8c57-80f47d57ba40"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyParts:LTV-847S")
-		(at 78.74 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5429ee69-55cc-465a-a43a-7b03487c10f6")
-		(property "Reference" "U3"
-			(at 78.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-847S"
-			(at 78.74 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MyParts:SMD-16_L20.0-W6.5-P2.54-LS10.2-BL"
-			(at 78.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_LTV-847S_C114599.html"
-			(at 78.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C114599"
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "3d080ebf-25dd-425e-8633-a65e14bc3902")
-		)
-		(pin "16"
-			(uuid "e015008b-8b09-4f89-8a1a-cd8d64656f9b")
-		)
-		(pin "9"
-			(uuid "c1209b69-9a22-47e2-b124-159e3e5fb331")
-		)
-		(pin "3"
-			(uuid "8ec67605-02ce-4585-98da-fa2d2a614aa4")
-		)
-		(pin "5"
-			(uuid "944157dd-f0d3-4f27-ba5b-0fd0ef88ddbd")
-		)
-		(pin "4"
-			(uuid "552b4a58-5a29-47f7-b71f-61112df3c9cb")
-		)
-		(pin "2"
-			(uuid "d9ba6630-e2f0-491e-a050-c3a4bb1bcf89")
-		)
-		(pin "6"
-			(uuid "b759023e-b20f-4e78-9594-158457121510")
-		)
-		(pin "1"
-			(uuid "618e178b-9a5a-425e-ba39-5dda59a219d0")
-		)
-		(pin "8"
-			(uuid "07880f53-a64b-44fc-8c44-bf159124bc82")
-		)
-		(pin "10"
-			(uuid "d124c2ff-0958-4a2a-a728-630499d2535b")
-		)
-		(pin "14"
-			(uuid "edd81aa5-ecd0-44bd-ae80-d28f9806c62d")
-		)
-		(pin "12"
-			(uuid "0ca0d1fc-ce0c-430f-97cf-b07e8c44c5f0")
-		)
-		(pin "11"
-			(uuid "75c8d1ba-d8b0-468a-868d-67e766aa1a99")
-		)
-		(pin "15"
-			(uuid "10d71bc6-9523-4d98-ac7f-1b952c407941")
-		)
-		(pin "13"
-			(uuid "29bded5f-0744-4d6a-9ae4-7c32fdd42191")
-		)
-		(instances
-			(project "mcu_test_board"
-				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59/3ab438cf-211a-4f77-8c57-80f47d57ba40"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8962,6 +9217,125 @@
 		)
 	)
 	(symbol
+		(lib_id "MyParts:LTV-847S")
+		(at 78.74 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7886b7f6-7372-4a39-91a2-79c49f8d328b")
+		(property "Reference" "U3"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-847S"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyParts:SMD-16_L20.0-W6.5-P2.54-LS10.2-BL"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_LTV-847S_C114599.html"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C114599"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "465f0b5a-79a4-4fa3-a3ff-ead39302d42c")
+		)
+		(pin "6"
+			(uuid "60535090-9ab0-4cc2-b701-b1bc2b98dd4e")
+		)
+		(pin "5"
+			(uuid "d722add5-5d33-4110-90e8-33f96e983a93")
+		)
+		(pin "8"
+			(uuid "510cccd1-899f-47d4-843e-8bb3c7e4e7bd")
+		)
+		(pin "14"
+			(uuid "428cd377-a5ed-4cdd-be84-b9bbf60a4128")
+		)
+		(pin "16"
+			(uuid "16b87e90-0f0f-4582-94b2-685265dcc6ec")
+		)
+		(pin "2"
+			(uuid "8ed3a20d-3fc8-4856-93e0-e17e67afd46d")
+		)
+		(pin "1"
+			(uuid "d209495a-c55e-4f09-a417-4e23dc74f6d5")
+		)
+		(pin "4"
+			(uuid "d5fc78f5-f71f-4613-a2e9-1faa30a5c595")
+		)
+		(pin "3"
+			(uuid "87bcfca1-74db-4a1e-8def-ab897dc3b2b3")
+		)
+		(pin "13"
+			(uuid "6449ecef-69d8-43f0-8e30-129143073f2d")
+		)
+		(pin "15"
+			(uuid "1f5db462-f44f-41b1-a23a-1f3826fca34f")
+		)
+		(pin "12"
+			(uuid "a20da2f5-6ef0-4726-9db7-355e35912f89")
+		)
+		(pin "10"
+			(uuid "c17235bc-fd83-4807-a5c5-a0591750db72")
+		)
+		(pin "9"
+			(uuid "5847f001-3a77-408f-a7f7-87beca92e528")
+		)
+		(pin "11"
+			(uuid "691d41c4-5a4a-4e3b-9526-88285a0b04cc")
+		)
+		(instances
+			(project ""
+				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59/3ab438cf-211a-4f77-8c57-80f47d57ba40"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,470Ω")
 		(at 54.61 130.81 90)
 		(unit 1)
@@ -9272,7 +9646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyParts:LTV827S-TA1"
+		(property "Footprint" "MyParts:SMD-8_L9.8-W6.6-P2.54-LS10.3-BL"
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -10799,103 +11173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MyParts:KF2EDGR-2.54-9P")
-		(at 200.66 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a87ae55c-3b0f-46aa-b1fa-051d0d33aae4")
-		(property "Reference" "CN7"
-			(at 200.66 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KF2EDGR-2.54-9P"
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MyParts:CONN-TH_9P-P2.54_KF2EDGR-2.54-9P"
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Cixi-Kefa-Elec-KF2EDGR-2-54-9P_C577601.html"
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C577601"
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "593df001-87b9-420c-b7db-f9f21829d8a5")
-		)
-		(pin "5"
-			(uuid "0934122e-203e-4f38-8cfd-6559b5304d76")
-		)
-		(pin "6"
-			(uuid "60bf583e-25d0-4dc3-88e7-a47d63220241")
-		)
-		(pin "8"
-			(uuid "924e849f-dc2e-464a-81e0-3221693ce11b")
-		)
-		(pin "1"
-			(uuid "8f7f80b6-996e-4095-b7ce-431212344e59")
-		)
-		(pin "7"
-			(uuid "93916d8c-2775-4aa5-9e93-20c48d7e37bb")
-		)
-		(pin "2"
-			(uuid "bbfa5aaa-3379-459c-b6c7-c10c4e54bd45")
-		)
-		(pin "4"
-			(uuid "bbd1223b-4211-4c80-846b-ef42b6ffe8d6")
-		)
-		(pin "9"
-			(uuid "5abcd190-98db-4cc1-be88-448de6468020")
-		)
-		(instances
-			(project "mcu_test_board"
-				(path "/262d8f76-cfc1-4cac-8f67-8c56cd47dd59/3ab438cf-211a-4f77-8c57-80f47d57ba40"
-					(reference "CN7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MyParts:LTV-817S-TA1")
 		(at 77.47 153.67 0)
 		(unit 1)
@@ -10920,7 +11197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyParts:LTV817S"
+		(property "Footprint" "MyParts:OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BL"
 			(at 77.47 163.83 0)
 			(effects
 				(font
@@ -12361,6 +12638,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LTV-817S-TA1_1")
 		(lib_id "MyParts:LTV-817S-TA1")
 		(at 77.47 166.37 0)
 		(unit 1)
@@ -12385,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyParts:LTV817S"
+		(property "Footprint" "MyParts:OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BL"
 			(at 77.47 176.53 0)
 			(effects
 				(font
